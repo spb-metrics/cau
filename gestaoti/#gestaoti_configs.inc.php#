@@ -1,0 +1,37 @@
+<?php
+/*
+Copyright 2011 da EMBRATUR
+ Este arquivo é parte do programa CAU - Central de Atendimento ao Usuário
+ O CAU é um software livre; você pode redistribuí-lo e/ou modificá-lo dentro dos termos da Licença Pública Geral GNU como publicada pela 
+ Fundação do Software Livre (FSF); na versão 2 da Licença.
+ Este programa é distribuído na esperança que possa ser  útil, mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer  
+ MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/GPL em português para maiores detalhes.
+ Observe no diretório gestaoti/install/ a cópia da Licença Pública Geral GNU, sob o título "licensa_uso.htm". 
+ Se preferir acesse o Portal do Software Público Brasileiro no endereço www.softwarepublico.gov.br ou escreva para a Fundação do Software 
+ Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA
+*/
+
+/* Configurações de banco de dados */
+global $gestaoti_settings;
+$gestaoti_settings['db_postgres_host']='localhost';
+$gestaoti_settings['db_postgres_port']='5432';
+$gestaoti_settings['db_postgres_name']='gestaoti';
+$gestaoti_settings['db_postgres_user']='gestaoti';
+$gestaoti_settings['db_postgres_pass']='gestaoti';
+$gestaoti_settings['db_postgres_enconding']='LATIN1';
+
+/* Configurações de ambiente */
+date_default_timezone_set('America/Sao_Paulo');
+$gestaoti_settings['debug_mode'] = false
+; // true = exibe erros | false = não exibe erros
+
+#############################
+#     NÃO MUDE ABAIXO       #
+#############################
+if ($gestaoti_settings['debug_mode']){
+    //error_reporting(E_ALL ^ E_NOTICE);
+} else {
+    ini_set('display_errors', 0);
+    ini_set('log_errors', 1);
+}
+?>

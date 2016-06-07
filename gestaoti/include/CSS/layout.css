@@ -1,0 +1,377 @@
+/* tags html */
+body {
+	margin-top: 0px;
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/bgnew.gif);
+	background-repeat: repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	color:#003366;
+	text-decoration: none;
+}
+a:link {
+    color: #914800;
+	text-decoration: none;
+}
+a:visited {
+	color: #CC6600;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+/* ids centrais */
+
+#principal { 
+ margin: 0 auto;
+ width: 760px;
+ background-color:#FFFFFF;
+} 
+
+/* ids cabeçalho, topo da página */
+
+#topo {
+	height:132px;
+}
+
+#logo {
+	width:210px;
+	height:50px;
+	background-image:url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/logo_infraero.png);
+	background-repeat: no-repeat;
+	margin-top:30px;
+	margin-left: 5px;
+	}
+	
+#cabecalho {
+	background-image:url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/topo_gcce.jpg);
+	height:118px;
+	background-repeat: no-repeat;
+	
+}
+
+#tarja {
+	background-color:#c7d4e6;
+	height: 17px;
+	padding-top: 1px;
+	font-size: xx-small;
+	color: #000000;
+	padding-left: 14px;
+}
+
+#caminho {
+	text-align: center;
+	height: 17px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+	
+#icone {
+	background-position: left center;
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/user.gif);
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+.nomesistema
+{
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/seta.png);
+	background-repeat: no-repeat;
+	font-size: 26px;
+	color: #6783a3;
+	font-weight: bold;
+	font-variant: small-caps;
+	vertical-align: middle;
+	text-indent: 35px;
+	margin-top: -50px;
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+	background-position: 230px 0px;
+}		
+.nomesistemagpo
+{
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/seta.png);
+	background-repeat: no-repeat;
+	font-size: 26px;
+	color: #6783a3;
+	font-weight: bold;
+	font-variant: small-caps;
+	vertical-align: middle;
+	text-indent: 35px;
+	margin-top: -50px;
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+	background-position: 150px 0px;
+}	
+.nomesistemaSigma {
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/seta.png);
+	background-repeat: no-repeat;
+	font-size: 26px;
+	color: #6783a3;
+	font-weight: bold;
+	font-variant: small-caps;
+	vertical-align: middle;
+	text-indent: 35px;
+	margin-top: -50px;
+	margin-right: 10px;
+	float: right;
+	text-align: right;
+	background-position: 175px 0px;
+} 
+.descricaonome	{
+	color:#8b8f93;
+	font-size:small;
+	font-variant: normal;
+	text-indent:0px;
+	font-weight: bold;
+}	
+	
+
+/*ínicio menu horizontal*/
+
+#navigation {
+	float: left;
+	margin: 0px;
+	width: 100%;
+}
+
+
+#navigation:after{ /*Add margin between menu and rest of content in Firefox*/
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+#navigation ul{
+	border: 1px solid #BBB;
+	margin: 0;
+	color: #FFFFFF;
+	font-weight:bold;
+	font-size:10px;
+	text-align: left; /*set value to "right" for example to align menu to the left of page*/
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/fundo.gif);
+	background-repeat: repeat-x;
+	background-position: center center;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#navigation ul li{
+display:inline;
+}
+#navigation ul li a{
+color: #ffffff;
+padding: 5px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+}
+
+#navigation ul li .atual{
+color: #ffffff;
+	background-color:#507ab2;
+padding: 5px;
+margin: 0;
+border-right: 1px solid #DADADA;
+}
+#navigation ul li a:hover{
+	background-color:#507ab2;
+	background-repeat: repeat-x;
+	background-position: center center;	
+	
+}
+
+/*id conteudo, área central*/	
+	
+
+#conteudo {
+	background-color:#ffffff;
+	height: auto;
+}
+
+#titulo {
+	padding-left:10px;
+	margin-top:0px;
+	background-color:#FFFFFF;
+	height: 20px;
+	width: 95%;
+}
+	
+
+#descricao_titulo {
+	background-image:url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/seta_titulo.gif);
+	background-position: left center;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	font-size: small;
+	color: #458caa;
+	vertical-align: text-bottom;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 15px;
+	margin-left:6px;
+	margin-bottom:2px;
+	padding-top: 3px;
+	width: 430px;
+	float: left;
+}
+#busca div {
+	margin-bottom:2px;
+	padding-top: 3px;
+	vertical-align: text-bottom;
+	text-align: left;
+	width: 150px;
+	clear:left
+}
+#busca label {
+	display: inline;
+	font-weight: bold;
+}
+#busca label input {
+	display: inline;
+	font-weight: bold;
+}
+#acessibilidade div {
+	margin-bottom:2px;
+	padding-top: 3px;
+	vertical-align: text-bottom;
+	text-align: left;
+	width: 80px;
+	float: right;
+	clear:left;
+}
+#acessibilidade label {
+	display: inline;
+	font-weight: bold;
+}
+#acessibilidade label input {
+	display: inline;
+	font-weight: bold;
+}
+.acessibilidademais{
+	margin-bottom:2px;
+	padding-top: 3px;
+	vertical-align: text-bottom;
+	font-weight: bold;
+	text-align: right;
+	margin-left: 25px;
+}	
+.acessibilidademenos{
+	margin-bottom:2px;
+	padding-top: 3px;
+	vertical-align: text-bottom;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.linhapontilhada{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #006699;
+	font-size: 3px;
+}
+
+
+/*id de distribuição de conteúdo*/	
+
+#colunaesquerda {
+	width:25%;
+	background-color:#FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#colunadireita {
+	width:70%;
+	background-color:#FFFFFF;
+	float: right;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+#central {
+	background-color:#FFFFFF;
+	padding:10px;
+}
+
+
+			
+#colunadireita a {
+	text-decoration: underline;
+}
+#colunadireita a:visited {
+	color: #1278B9;
+}
+
+
+/*classes de texto*/	
+
+h3 {
+	background-image:url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/h5.gif);
+	background-repeat:no-repeat;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	margin-left:5px;
+	text-indent:10px;
+	background-position: left center;	
+}
+
+p {
+	margin-left:5px;
+	}
+#rodape {
+	font-size: xx-small;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	clear: both;
+	margin-top: 2px;
+	background-color:#0072b6;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+
+.ajuda {
+	color: #FF9900;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom:2px;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+
+
+
+.colunadireita30 {
+	float: right;
+	width: 20%;
+}
+.colunaesquerda60 {
+	float: left;
+	width: 78%;
+}
+.centro {
+	vertical-align: middle;
+	clear: both;
+	margin: 10px;
+}

@@ -1,0 +1,2 @@
+php_value register_globals  on
+php_value display_errors on

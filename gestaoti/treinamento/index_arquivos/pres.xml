@@ -1,0 +1,69 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4240" notessizey="6208"
+  gridspacingx="46448" gridspacingy="46448" omittitleplace="t" subsetembed="1">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Design padrão" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1C94E53,B30919E0" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:slide id="18" slidesn="0,0" href="slide0018.htm"/>
+  <p:slide id="20" slidesn="0,0" href="slide0020.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="41" slidesn="0,0" href="slide0041.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="43" slidesn="0,0" href="slide0043.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="42" slidesn="0,0" href="slide0042.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="44" slidesn="0,0" href="slide0044.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="45" slidesn="0,0" href="slide0045.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="47" slidesn="0,0" href="slide0047.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="48" slidesn="0,0" href="slide0048.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="46" slidesn="0,0" href="slide0046.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="49" slidesn="0,0" href="slide0049.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="50" slidesn="0,0" href="slide0050.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="51" slidesn="0,0" href="slide0051.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="52" slidesn="0,0" href="slide0052.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="53" slidesn="0,0" href="slide0053.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="54" slidesn="0,0" href="slide0054.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="55" slidesn="0,0" href="slide0055.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="56" slidesn="0,0" href="slide0056.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="57" slidesn="0,0" href="slide0057.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="58" slidesn="0,0" href="slide0058.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="59" slidesn="0,0" href="slide0059.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="60" slidesn="0,0" href="slide0060.htm"
+   overridemasteranimations="t"/>
+  <p:slide id="21" slidesn="0,0" href="slide0021.htm"/>
+  <p:viewstate restoredleft="218" restoredtop="929" manualadjustleft="t"
+   manualadjusttop="t" hideoutlineicons="t"/>
+  <p:pptdocumentsettings framecolors="PresentationSchemeTextColor"
+   hideslideanimation="t" browsersupport="v4"/>
+  <p:htmlpublishsettings browsersupport="v4"
+   href="D:\Infraero\Projetos\si-prti-gestaoti\src\gestaoti\treinamento\index.htm"
+   hidespeakernote="t" noloadinbrowser="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="49157">
+  <o:colormru v:ext="edit" colors="#abd5ff,#e5f2ff,#257cdb,#4d4d4d,#969696,#b2b2b2,#c5e2ff,#1555b3"/>
+ </o:shapedefaults></xml>

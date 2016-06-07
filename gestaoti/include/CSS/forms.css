@@ -1,0 +1,284 @@
+/* HTML TAGS */
+input[type="text"] {
+	color: #5f8d9b;
+	background-color: #FFFFFF;
+	border: 1px solid #7f9db9;
+	font-size: xx-small;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: block;
+}
+input[type="radio"] {
+	color: #5f8d9b;
+	background-color: #FFFFFF;
+	border: 1px solid #7f9db9;
+	font-size: xx-small;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: inline;
+}
+input[type="checkbox"]
+{
+	color: #5f8d9b;
+	border: 1px solid #7f9db9;
+	font-size: xx-small;
+	display: inline;
+	margin: 2px;
+	padding-right:2px;
+}
+input[type="submit"] {
+	color: #5f8d9b;
+	background-color: #FFFFFF;
+	border: 1px solid #7f9db9;
+	font-size: xx-small;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: inline;
+}
+input[type="image"]
+{
+	border: none;
+	display: inline;
+	margin: 2px;
+}
+checkbox {
+	border-style: none;
+	display: inline;
+}
+
+select {
+	color: #5F8D9B;
+	font-size: xx-small;
+	display: inline;
+}
+textarea {
+	background-color: #FFFFFF;
+	font-size: x-small;
+	color: #588592;
+	border: 1px solid #7f9db9;
+}
+fieldset  
+{
+	border: solid 1px "steelblue";
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top:4px;
+	margin-bottom:4px;
+	font-size: x-small;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+}
+
+legend 
+{
+	font-size: small;
+	font-weight: bold;
+	color: #396999;
+	left: 5px;
+	padding-right: 4px;
+	padding-left: 2px;
+	background-color: #FFFFFF;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+/* classes */
+.radio {
+	background-color:#F5F5F5;
+	border: 1px solid #F5F5F5;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.textoinput {
+	color: #588592;
+	text-align: left;
+	clear: left;
+	margin-right: 16px;
+	margin-left: 2px;
+}
+.inputdesabilitado {
+	background-color: #CCCCCC;
+	color: #000000;
+}
+.campos {
+	width: 80%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.hidden
+{
+	position: absolute;
+	left: -10000px;
+}
+.clearer
+{
+	clear: both;
+	height: 1px;
+}
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+.inline {
+	display: inline;
+	text-align: left;
+	background-color: #99FF99;
+}
+
+.block {
+	display: block;
+}
+.campo_obrigatorio 
+{
+	border: 1px solid #3E5773;
+	color: #800000;
+}
+.situacaooptitulo
+{
+	width:10%;
+	float:none;
+	display:inline;
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:small;
+	color:White;
+	background-color:#006699;
+}
+.botao {
+	font-size: xx-small;
+	color: #333333;
+	background-image: url(file:///C|/Documents and Settings/T995139271/Configurações locais/Temporary Internet Files/Content.IE5/imagens/bg_botao.gif);
+	border: 1px solid #666666;
+	background-repeat: repeat-x;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+/* IDs */
+
+#inicial {
+	background-color:#FFFFFF;
+	padding:10px;
+}
+ 
+#botoes {
+	display: inline;
+}
+#botoes input {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+fieldset #dadospessoais
+{
+	display: block;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #F5F5F5;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-left: 0;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+#dadospessoais input
+{
+	display: inline;
+	width: 12em;
+}
+
+#dadospessoais label
+{
+	margin-top: 8px;
+	margin-right: 1em;
+	margin-bottom: 0;
+	float: left;
+	display: block;
+}
+fieldset #solicitacao {
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+#solicitacao div
+{
+	margin-right: 0px;
+	font-size: x-small;
+	/*line-height: 1em;*/
+}
+
+#situacaoop div
+{
+	margin-right: 0px;
+	font-size: x-small;
+}
+#filtro {
+	width: 50%;
+}
+fieldset #ajuda {
+	margin-right: 10px;
+	margin-left: 5px;
+}
+/* grids */
+
+.headgrid {
+	background-color: #9FA7A9;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;	
+}
+.pargrid {
+	background-color: #DCE6E9;
+	text-align: center;
+	color: #0C0C0C;
+	
+}
+.impargrid {
+	background-color: #CFDDE2;
+	text-align: center;
+	color: #0C0C0C;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.selectedgrid {
+	background-color: #E1E8BD;
+	text-align: center;
+	color: #2A3245;
+}
+.numeracao {
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 2px;
+	text-align: center;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 10px 0;
+	width: 79%;
+	/*FONT-WEIGHT: normal; */
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 9px; 
+	/*COLOR: #008bbd;*/ 
+	COLOR: #000000;
+	FONT-FAMILY: "verdana";
+	
+}
